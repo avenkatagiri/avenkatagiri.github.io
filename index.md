@@ -97,9 +97,9 @@ title: Home
   </p>
 
   <div class="social-links">
-    <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/" target="_blank">linkedin</a>
+    <a href="https://www.linkedin.com/in/avinashvenkatagiri/" target="_blank">linkedin</a>
     <a href="https://github.com/avenkatagiri" target="_blank">github</a>
-    <a href="mailto:YOUR-EMAIL" target="_blank">email</a>
+    <a href="mailto:avinash.venkatagiri@outlook.com" target="_blank">email</a>
   </div>
 
   </div>
