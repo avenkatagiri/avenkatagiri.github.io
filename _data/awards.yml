@@ -32,24 +32,22 @@
   issuer: "Credly"
   link: "https://www.credly.com/badges/021c89e9-0831-4c20-9d9a-9df898107c66/public_url"
   image: "/assets/img/badges/badge_1.png"
-  featured: true
 
 - title: "AWS Industry Financial Services Foundational (L100)"
   issuer: "Credly"
   link: "https://www.credly.com/badges/ef7f8ca4-9f9d-4b38-89f0-4f07b47f87ac/public_url"
   image: "/assets/img/badges/badge_2.png"
-  featured: true
 
 - title: "AWS AI Foundational (L100)"
   issuer: "Credly"
   link: "https://www.credly.com/badges/1a7e01ca-0fa1-41f6-b9be-f2cb9562c7ba/public_url"
   image: "/assets/img/badges/badge_3.png"
-  featured: true
 
 - title: "MongoDB Solution Architect Certification for AWS"
   issuer: "Credly"
   link: "https://www.credly.com/badges/212fa291-5dfc-4aea-9c55-e57d554eb666/public_url"
   image: "/assets/img/badges/badge_4.png"
+  featured: true
 
 - title: "MongoDB Certification for AWS"
   issuer: "Credly"
