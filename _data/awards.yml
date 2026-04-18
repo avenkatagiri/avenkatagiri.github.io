@@ -57,3 +57,23 @@
   link: "https://www.credly.com/badges/cf5d40cd-923e-4302-894b-6b546b0248fe/public_url"
   image: "/assets/img/badges/badge_10.png"
 
+- title: "Certificate for Claude Code in Action"
+  issuer: "Skilljar"
+  link: "https://verify.skilljar.com/c/wypnqf23irdk"
+  image: "/assets/img/badges/badge_11.png"
+
+- title: "Certificate for Model Context Protocol: Advanced Topics"
+  issuer: "Skilljar"
+  link: "https://verify.skilljar.com/c/qccbp94zdxug"
+  image: "/assets/img/badges/badge_12.png"
+
+- title: "Certificate for Introduction to Model Context Protocol"
+  issuer: "Skilljar"
+  link: "https://verify.skilljar.com/c/pwocmemad75t"
+  image: "/assets/img/badges/badge_13.png"
+
+- title: "Certificate for Claude with Amazon Bedrock"
+  issuer: "Skilljar"
+  link: "https://verify.skilljar.com/c/jzfkjzj98pf9"
+  image: "/assets/img/badges/badge_14.png"
+
