@@ -47,7 +47,8 @@
     - PBKDF2-SHA256
 
 - title: AWS Marketplace Listing Automation Agent
-  description: AI-powered portal that guides AWS Partners through end-to-end AWS Marketplace seller onboarding — from registration to SaaS product listing creation. Conversational AI agents assist at each step of the process.
+  featured: true
+  description: AI-powered portal that guides Independent Software Vendors (ISVs) through end-to-end AWS Marketplace seller onboarding. Create and list SaaS products in 30 minutes instead of 3 weeks. Officially published in AWS GitHub Samples.
   highlights:
     - "**Multi-agent pipeline** — Specialized agents for seller registration, SaaS product creation, deployment, buyer experience, metering, and public visibility"
     - "**Amazon Bedrock AgentCore Runtime** — Agents deployed on managed infrastructure with ARM64 builds via CodeBuild"
