@@ -46,7 +46,10 @@ title: Home
       <img src="{{ award.image }}" alt="{{ award.title }}" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
     {% endif %}
-    <h4 style="margin: 0; color: var(--color-text); font-size: 0.95rem; max-width: 180px;">{{ award.title }}</h4>
+    <h4 style="margin: 0; color: var(--color-text); font-size: 0.95rem; max-width: 180px; margin-bottom: 0.5rem;">{{ award.title }}</h4>
+    {% if award.company_logo %}
+    <img src="{{ award.company_logo }}" alt="Company Logo" style="height: 18px; margin-top: 0.5rem; object-fit: contain;">
+    {% endif %}
   </a>
 {% endfor %}
 </div>
