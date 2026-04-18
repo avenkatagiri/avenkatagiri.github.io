@@ -2,8 +2,8 @@
 
 /* Color palette */
 :root {
-  --color-primary: #4f46e5; /* Indigo accent */
-  --color-primary-light: #818cf8;
+  --color-primary: #06b6d4; /* Cyan accent */
+  --color-primary-light: #67e8f9;
   --color-bg-light: #f8fafc;
   --color-bg-dark: #111111;
   --color-surface-light: rgba(255, 255, 255, 0.8);
@@ -29,6 +29,13 @@ body {
   color: var(--color-text);
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
+}
+
+/* Headings Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 /* Glass‑morphism utility */
@@ -93,7 +100,7 @@ body {
   transition: background 0.2s ease;
 }
 .btn:hover {
-  background: #4338ca; /* darker indigo */
+  background: #0891b2; /* darker cyan */
 }
 
 /* Base resets & layout */
@@ -119,10 +126,11 @@ main { max-width: 1000px; margin: 6rem auto 3rem auto; padding: 0 1.5rem; }
 }
 .logo {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
+  font-family: 'Outfit', sans-serif;
   color: var(--color-text);
   text-decoration: none;
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
 }
 .nav-links {
   display: flex;
@@ -196,14 +204,14 @@ main { max-width: 1000px; margin: 6rem auto 3rem auto; padding: 0 1.5rem; }
 }
 
 .tech-tag {
-  background: rgba(79, 70, 229, 0.1);
+  background: rgba(6, 182, 212, 0.1);
   color: var(--color-primary);
   padding: 0.3rem 0.8rem;
   border-radius: 6px;
   font-size: 0.8rem;
   font-weight: 600;
   font-family: monospace;
-  border: 1px solid rgba(79, 70, 229, 0.2);
+  border: 1px solid rgba(6, 182, 212, 0.2);
 }
 
 .highlight-list {

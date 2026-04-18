@@ -36,7 +36,7 @@ title: Home
   {% endfor %}
 </section>
 
-<h2 style="margin-top: 4rem; margin-bottom: 1.5rem; text-align: center;">Key Awards & Certs</h2>
+<h2 style="margin-top: 4rem; margin-bottom: 1.5rem; text-align: center;">Key Certifications</h2>
 <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 4rem;">
 {% assign featured_awards = site.data.awards | where: "featured", true %}
 {% for award in featured_awards %}

@@ -31,11 +31,7 @@
   date: "April 2025"
   image: "/assets/img/speaking/Databricks_DI_Day.jpg"
   description: |
-    Shared insights on the powerful combination of Amazon Web Services (AWS) Bedrock and Databricks, showcasing how this partnership is transforming the GenAI landscape. Key highlights included:
-    • Deep dive into AWS Bedrock's latest foundation models and capabilities
-    • Seamless integration between AWS and Databricks platforms
-    • Our strategic collaboration agreement focusing on GenAI innovation
-    • The remarkable success story of Databricks on AWS Marketplace
+    Shared insights on the powerful combination of Amazon Web Services (AWS) Bedrock and Databricks, showcasing how this partnership is transforming the GenAI landscape.
 
 - event: "Snowflake Build Bangalore"
   topic: "Harnessing Generative AI with Snowflake and AWS"

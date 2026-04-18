@@ -3,7 +3,7 @@ layout: default
 title: Blog
 ---
 
-<h1 style="text-align: center; margin-bottom: 0.5rem;">Engineering Blog</h1>
+<h1 style="text-align: center; margin-bottom: 0.5rem;">Blogs</h1>
 <p style="text-align: center; color: var(--color-muted); max-width: 600px; margin: 0 auto 3rem auto;">
   Thoughts, tutorials, and insights on multi-agent systems and software architecture.
 </p>

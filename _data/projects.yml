@@ -1,14 +1,14 @@
 - title: Spectrum
-  image: "/assets/img/spectrum_Architecture.png"
+  image: "/assets/img/spectrum.jpg"
   secret: true
   description: Multi-agent cloud advisory system that refracts workload requirements through platform-specialist AI agents. Agents research, debate, and produce comprehensive competitive analysis reports across major cloud and data platforms.
   highlights:
-    - "**6+ specialized agent roles** — Intake, Research, Debate, PDM, Report Generation, and a runtime Onboarding Agent for adding new platforms without code changes"
+    - "**6+ specialized agent roles** — Intake, Research, Debate, Business, Report Generation, and a runtime Onboarding Agent for adding new platforms without code changes"
     - "**Graph-based orchestration** — Structured pipeline (Intake → Research → Debate → Report) with dynamic cycles; debate rounds loop until convergence criteria are met"
     - "**Live multi-agent debate** — Platform advocates argue across 8 scoring dimensions with user-steered injection points between rounds"
     - "**Custom MCP server** — Real-time pricing aggregation across multiple cloud providers via a unified FastMCP Lambda behind an API gateway with OAuth2 auth"
     - "**Exportable deliverables** — Auto-generated Word/PDF reports with comparison tables, architecture diagrams, recommendation matrices, and draft outreach emails"
-    - "**Conversational intake** — 'Speccy' mode uses LLM extraction over SSE streaming to build workload profiles from natural language"
+    - "**Conversational intake** — Conversational mode uses LLM extraction over SSE streaming to build workload profiles from natural language"
   complexity: "multi-agent graph + MCP + debate cycles"
   complexity_score: 90
   tags:
@@ -32,7 +32,7 @@
     - "**6-agent adversarial debate** — Petitioner and Respondent advocates present arguments, with a Mediator and Strategy Advisor shaping the discourse across up to 5 rebuttal exchanges per round"
     - "**Step-by-step user control** — Pause after each advocate's argument, inject guidance, then watch the opposing side respond with targeted rebuttals"
     - "**RAG-powered legal knowledge** — Statutory texts indexed in ChromaDB for retrieval-augmented generation, with optional real-time case law search integration"
-    - "**Settlement analysis engine** — Financial modeling for maintenance and lump-sum calculations based on judicial guidelines"
+    - "**Settlement analysis engine** — Financial modeling for settlement calculations based on judicial guidelines"
     - "**Full case management** — Multi-case support with party details, hearing timelines, history tracking, and JWT-authenticated user sessions"
   complexity: "multi-agent debate + RAG + legal reasoning"
   complexity_score: 80

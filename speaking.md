@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Speaking
+title: Speaking Engagements
 ---
 
-<h1 style="text-align: center; margin-bottom: 0.5rem;">Speaking</h1>
+<h1 style="text-align: center; margin-bottom: 0.5rem;">Speaking Engagements</h1>
 <p style="text-align: center; color: var(--color-muted); max-width: 600px; margin: 0 auto 3rem auto;">
   Public talks, webinars, and conference presentations.
 </p>
