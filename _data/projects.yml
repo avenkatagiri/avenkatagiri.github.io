@@ -1,4 +1,5 @@
 - title: Spectrum
+  image: "/assets/img/spectrum_Architecture.png"
   secret: true
   description: Multi-agent cloud advisory system that refracts workload requirements through platform-specialist AI agents. Agents research, debate, and produce comprehensive competitive analysis reports across major cloud and data platforms.
   highlights:
@@ -47,6 +48,7 @@
     - PBKDF2-SHA256
 
 - title: AWS Marketplace Listing Automation Agent
+  image: "/assets/img/mpagent_architecture.png"
   featured: true
   description: AI-powered portal that guides Independent Software Vendors (ISVs) through end-to-end AWS Marketplace seller onboarding. Create and list SaaS products in 30 minutes instead of 3 weeks. Officially published in AWS GitHub Samples.
   highlights:
@@ -68,6 +70,7 @@
     - CodeBuild
 
 - title: Conversation Tutor
+  image: "/assets/img/convai_architecture.png"
   description: AI-powered practice tool for rehearsing real-world conversations. Choose from 14 role targets across dating, office, interview, social, and networking categories — or create your own. Each session provides real-time EQ analysis and actionable feedback.
   highlights:
     - "**Live EQ analysis** — Side panel tracks conversation quality (Great → Hostile) with a radar chart scoring empathy, assertiveness, active listening, clarity, and emotional regulation"
