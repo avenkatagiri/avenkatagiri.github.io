@@ -89,6 +89,7 @@
     - Vitest
 
 - title: Finance App
+  image: "/assets/img/Finance_Architecture.png"
   description: Self-hosted financial management system for ingesting bank statements (CSV/Excel/PDF), AI-powered transaction categorization, and visualizing financial health through a high-fidelity dashboard and net worth tracker.
   highlights:
     - "**Smart categorization** — Uses Google Gemini or built-in heuristics to automatically categorize transactions"
