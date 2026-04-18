@@ -3,108 +3,31 @@ layout: default
 title: Home
 ---
 
-<style>
-.profile-section {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-}
-
-.profile-pic {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  border: 2px solid #39ff14;
-  flex-shrink: 0;
-  object-fit: cover;
-}
-
-.profile-pic-placeholder {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  border: 2px dashed #555;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #666;
-  font-style: italic;
-  font-size: 0.8rem;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.profile-bio {
-  flex: 1;
-}
-
-.profile-bio h1 {
-  margin-top: 0;
-}
-
-.profile-bio p {
-  color: #b5e853;
-  line-height: 1.7;
-}
-
-.social-links {
-  display: flex;
-  gap: 0.8rem;
-  margin-top: 1.2rem;
-  flex-wrap: wrap;
-}
-
-.social-links a {
-  color: #39ff14;
-  text-decoration: none;
-  border: 1px solid #39ff14;
-  padding: 0.3rem 0.8rem;
-  border-radius: 3px;
-  font-size: 0.85rem;
-  font-family: monospace;
-  transition: background 0.2s ease;
-}
-
-.social-links a:hover {
-  background: rgba(57, 255, 20, 0.15);
-}
-
-@media (max-width: 600px) {
-  .profile-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .social-links {
-    justify-content: center;
-  }
-}
-</style>
-
-<div class="profile-section">
-
-  <!-- Replace placeholder with: <img class="profile-pic" src="assets/img/profile.jpg" alt="Avi Venkatagiri"> -->
-  <div class="profile-pic-placeholder">[ photo ]</div>
-
-  <div class="profile-bio">
-
-  <h1>Hey, I'm Avi</h1>
-
-  <p>
-    <!-- Update this bio with your own details -->
-    I build AI-powered multi-agent systems, full-stack applications, and developer tools. Currently focused on agentic architectures, cloud advisory platforms, and conversational AI.
-  </p>
-
-  <div class="social-links">
-    <a href="https://www.linkedin.com/in/avinashvenkatagiri/" target="_blank">linkedin</a>
-    <a href="https://github.com/avenkatagiri" target="_blank">github</a>
-    <a href="mailto:avinash.venkatagiri@outlook.com" target="_blank">email</a>
-  </div>
-
+<div class="hero glass" style="margin-bottom: 3rem; text-align: center;">
+  <img src="/assets/img/profile.jpg" alt="Avi Venkatagiri" class="profile-pic" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 4px solid var(--color-primary-light);" onerror="this.src='https://via.placeholder.com/140?text=photo';" />
+  <h1 class="accent" style="margin: 0.5rem 0; font-size: 2.5rem;">Hey, I'm Avi.</h1>
+  <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem auto;">I build AI-powered multi-agent systems, full-stack applications, and developer tools. Currently focused on agentic architectures, cloud advisory platforms, and conversational AI.</p>
+  
+  <div class="social-links" style="display: flex; gap: 1rem; justify-content: center;">
+    <a href="https://www.linkedin.com/in/avinashvenkatagiri/" target="_blank" aria-label="LinkedIn" class="btn">LinkedIn</a>
+    <a href="https://github.com/avenkatagiri" target="_blank" aria-label="GitHub" class="btn" style="background: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-muted);">GitHub</a>
+    <a href="mailto:avinash.venkatagiri@outlook.com" target="_blank" aria-label="Email" class="btn" style="background: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-muted);">Email</a>
   </div>
 </div>
 
----
-
-**[View my projects &rarr;](projects)**
+<h2 style="margin-bottom: 1.5rem; text-align: center;">Featured Projects</h2>
+<section class="grid">
+  {% for project in site.data.projects %}
+  <article class="glass">
+    <h3 style="margin-top:0;">{{ project.title }}</h3>
+    {% if project.complexity %}<span style="font-size: 0.8rem; padding: 0.2rem 0.5rem; background: var(--color-primary); color: white; border-radius: 4px; margin-bottom: 0.5rem; display: inline-block;">{{ project.complexity }}</span>{% endif %}
+    <p>{{ project.description }}</p>
+    {% if project.image %}<img src="{{ project.image }}" alt="{{ project.title }} thumbnail" style="width:100%; border-radius:12px; margin-top: 0.5rem; object-fit: cover; aspect-ratio: 16/9;" onerror="this.style.display='none'"/>{% endif %}
+    
+    <div style="margin-top: 1.5rem; display: flex; gap: 0.8rem;">
+      {% if project.demo_url %}<a href="{{ project.demo_url }}" class="btn" target="_blank">Demo</a>{% endif %}
+      {% if project.repo_url %}<a href="{{ project.repo_url }}" class="btn" style="background: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-muted);" target="_blank">Code</a>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</section>

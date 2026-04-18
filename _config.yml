@@ -1,1 +1,2 @@
-remote_theme: pages-themes/hacker
+theme: null
+head_include: _includes/head.html

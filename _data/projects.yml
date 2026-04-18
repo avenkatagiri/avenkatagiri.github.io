@@ -1,0 +1,106 @@
+- title: Spectrum
+  secret: true
+  description: Multi-agent cloud advisory system that refracts workload requirements through platform-specialist AI agents. Agents research, debate, and produce comprehensive competitive analysis reports across major cloud and data platforms.
+  highlights:
+    - "**6+ specialized agent roles** — Intake, Research, Debate, PDM, Report Generation, and a runtime Onboarding Agent for adding new platforms without code changes"
+    - "**Graph-based orchestration** — Structured pipeline (Intake → Research → Debate → Report) with dynamic cycles; debate rounds loop until convergence criteria are met"
+    - "**Live multi-agent debate** — Platform advocates argue across 8 scoring dimensions with user-steered injection points between rounds"
+    - "**Custom MCP server** — Real-time pricing aggregation across multiple cloud providers via a unified FastMCP Lambda behind an API gateway with OAuth2 auth"
+    - "**Exportable deliverables** — Auto-generated Word/PDF reports with comparison tables, architecture diagrams, recommendation matrices, and draft outreach emails"
+    - "**Conversational intake** — 'Speccy' mode uses LLM extraction over SSE streaming to build workload profiles from natural language"
+  complexity: "multi-agent graph + MCP + debate cycles"
+  complexity_score: 90
+  tags:
+    - Python
+    - Strands Agents SDK
+    - Graph Orchestration
+    - Amazon Bedrock
+    - "MCP (stdio + HTTP)"
+    - FastMCP
+    - FastAPI
+    - SSE Streaming
+    - Lambda
+    - Cognito OAuth2
+    - python-docx
+    - reportlab
+
+- title: Adversa
+  secret: true
+  description: Multi-agent legal debate system that models adversarial proceedings. Six specialized AI agents — researcher, advocates for each party, mediator, strategy advisor, and settlement analyst — argue both sides of a case through structured rounds with rebuttal exchanges.
+  highlights:
+    - "**6-agent adversarial debate** — Petitioner and Respondent advocates present arguments, with a Mediator and Strategy Advisor shaping the discourse across up to 5 rebuttal exchanges per round"
+    - "**Step-by-step user control** — Pause after each advocate's argument, inject guidance, then watch the opposing side respond with targeted rebuttals"
+    - "**RAG-powered legal knowledge** — Statutory texts indexed in ChromaDB for retrieval-augmented generation, with optional real-time case law search integration"
+    - "**Settlement analysis engine** — Financial modeling for maintenance and lump-sum calculations based on judicial guidelines"
+    - "**Full case management** — Multi-case support with party details, hearing timelines, history tracking, and JWT-authenticated user sessions"
+  complexity: "multi-agent debate + RAG + legal reasoning"
+  complexity_score: 80
+  tags:
+    - Python
+    - Strands Agents SDK
+    - Amazon Bedrock
+    - ChromaDB
+    - RAG
+    - FastAPI
+    - SQLite
+    - JWT Auth
+    - PBKDF2-SHA256
+
+- title: AWS Marketplace Listing Automation Agent
+  description: AI-powered portal that guides AWS Partners through end-to-end AWS Marketplace seller onboarding — from registration to SaaS product listing creation. Conversational AI agents assist at each step of the process.
+  highlights:
+    - "**Multi-agent pipeline** — Specialized agents for seller registration, SaaS product creation, deployment, buyer experience, metering, and public visibility"
+    - "**Amazon Bedrock AgentCore Runtime** — Agents deployed on managed infrastructure with ARM64 builds via CodeBuild"
+    - "**Production-grade auth** — Next.js frontend on ECS Fargate behind ALB with Cognito authentication"
+    - "**Zero Docker required** — Fully cloud-native deployment pipeline using AWS CodeBuild for both backend (ARM64) and frontend (AMD64)"
+  repo_url: https://github.com/aws-samples/sample-aws-marketplace-product-listing
+  complexity: "cloud-native + agent runtime"
+  complexity_score: 85
+  tags:
+    - Python
+    - Next.js
+    - Amazon Bedrock
+    - AgentCore Runtime
+    - ECS Fargate
+    - ALB
+    - Cognito
+    - CodeBuild
+
+- title: Conversation Tutor
+  description: AI-powered practice tool for rehearsing real-world conversations. Choose from 14 role targets across dating, office, interview, social, and networking categories — or create your own. Each session provides real-time EQ analysis and actionable feedback.
+  highlights:
+    - "**Live EQ analysis** — Side panel tracks conversation quality (Great → Hostile) with a radar chart scoring empathy, assertiveness, active listening, clarity, and emotional regulation"
+    - "**Tunable AI personas** — Five personality sliders (Warmth, Patience, Directness, Difficulty, Talkativeness) shape how the AI responds"
+    - "**Branching conversations** — Rewind to any message and explore alternative paths; branches are preserved and switchable"
+    - "**Voice mode** — Speak your messages via browser speech recognition; AI responds with Amazon Polly character voices"
+    - "**Progress tracking** — EQ trend line charts across sessions with per-dimension toggle filters and category filtering"
+    - "**Real-world grounding** — Paste LinkedIn profiles, dating bios, or meeting agendas to ground the AI in specific context"
+  complexity: "voice AI + branching narratives + realtime EQ"
+  complexity_score: 75
+  tags:
+    - React
+    - Express
+    - Amazon Bedrock
+    - Claude
+    - Amazon Polly
+    - Web Speech API
+    - PostgreSQL / SQLite
+    - Vitest
+
+- title: Finance App
+  description: Self-hosted financial management system for ingesting bank statements (CSV/Excel/PDF), AI-powered transaction categorization, and visualizing financial health through a high-fidelity dashboard and net worth tracker.
+  highlights:
+    - "**Smart categorization** — Uses Google Gemini or built-in heuristics to automatically categorize transactions"
+    - "**Investment portfolio** — Track stocks, mutual funds, and gold with inline-editable fields; auto-calculates current value and P&L"
+    - "**Net worth tracking** — Assets vs liabilities visualization with auto-generated history charts and goal-setting"
+    - "**Multi-bank parsers** — Robust parsers for HDFC, SBI, HSBC, and more (savings, credit cards, fixed deposits)"
+    - "**Glassmorphic UI** — Modern responsive design built with React and vanilla CSS"
+  complexity: "financial modeling + AI heuristics"
+  complexity_score: 65
+  tags:
+    - React
+    - TypeScript
+    - Node.js
+    - MongoDB
+    - Google Gemini
+    - Mongoose
