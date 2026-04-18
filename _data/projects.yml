@@ -76,7 +76,7 @@
     - "**Progress tracking** — EQ trend line charts across sessions with per-dimension toggle filters and category filtering"
     - "**Real-world grounding** — Paste LinkedIn profiles, dating bios, or meeting agendas to ground the AI in specific context"
   complexity: "voice AI + branching narratives + realtime EQ"
-  complexity_score: 75
+  complexity_score: 40
   tags:
     - React
     - Express

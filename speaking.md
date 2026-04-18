@@ -11,6 +11,11 @@ title: Speaking
 <div class="grid">
 {% for talk in site.data.speaking %}
   <article class="glass">
+    {% if talk.image %}
+    <div style="margin-bottom: 1.5rem;">
+      <img src="{{ talk.image }}" alt="{{ talk.topic }}" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+    </div>
+    {% endif %}
     <h3 style="margin-top:0; color: var(--color-primary);">{{ talk.topic }}</h3>
     <p style="font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem;">
       {{ talk.event }} • {{ talk.date }}

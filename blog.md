@@ -11,12 +11,18 @@ title: Blog
 <div style="display: flex; flex-direction: column; gap: 1.5rem;">
 {% for post in site.posts %}
   <article class="glass">
+    {% assign target_url = post.external_url | default: post.url %}
     <h3 style="margin-top:0; margin-bottom: 0.3rem;">
-      <a href="{{ post.url }}" style="color: var(--color-text); text-decoration: none;">{{ post.title }}</a>
+      <a href="{{ target_url }}" style="color: var(--color-text); text-decoration: none;" {% if post.external_url %}target="_blank"{% endif %}>
+        {{ post.title }}
+        {% if post.external_url %}
+        <span style="font-size: 0.65rem; padding: 0.1rem 0.4rem; border: 1px solid var(--color-primary); color: var(--color-primary); border-radius: 4px; vertical-align: middle; margin-left: 0.5rem; font-weight: normal; text-transform: uppercase;">External URL</span>
+        {% endif %}
+      </a>
     </h3>
     <p style="color: var(--color-primary-light); font-size: 0.85rem; margin-bottom: 0.8rem;">{{ post.date | date: "%B %d, %Y" }}</p>
     <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-    <a href="{{ post.url }}" class="btn" style="margin-top: 0.5rem; font-size: 0.85rem; padding: 0.4rem 0.8rem;">Read More</a>
+    <a href="{{ target_url }}" class="btn" style="margin-top: 0.5rem; font-size: 0.85rem; padding: 0.4rem 0.8rem;" {% if post.external_url %}target="_blank"{% endif %}>Read More</a>
   </article>
 {% endfor %}
 </div>

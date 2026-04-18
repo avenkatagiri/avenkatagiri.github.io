@@ -3,6 +3,7 @@
   date: "2025"
   description: "Recognized for leading the transition to multi-agent architectures and improving system resilience."
   link: "https://example.com/award"
+  image: "https://via.placeholder.com/80?text=Badge"
 
 - title: "AWS Certified Solutions Architect"
   issuer: "Amazon Web Services"

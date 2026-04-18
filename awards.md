@@ -11,6 +11,11 @@ title: Awards & Certifications
 <div class="grid">
 {% for award in site.data.awards %}
   <article class="glass">
+    {% if award.image %}
+    <div style="margin-bottom: 1rem; background: #fff; display: inline-block; padding: 0.5rem; border-radius: 8px;">
+      <img src="{{ award.image }}" alt="{{ award.title }}" style="max-height: 80px; object-fit: contain;">
+    </div>
+    {% endif %}
     <h3 style="margin-top:0;">{{ award.title }}</h3>
     <p style="color: var(--color-primary-light); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem;">
       {{ award.issuer }} • {{ award.date }}

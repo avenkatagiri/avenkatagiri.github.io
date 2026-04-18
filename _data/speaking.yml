@@ -3,6 +3,7 @@
   date: "April 2026"
   recording_url: "https://youtube.com/example"
   slides_url: "https://example.com/slides"
+  image: "https://via.placeholder.com/600x200?text=Event+Photo"
 
 - event: "Cloud Native Computing Conference"
   topic: "Zero-Docker Agent Deployment on Fargate"
