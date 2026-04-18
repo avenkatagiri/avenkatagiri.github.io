@@ -1,11 +1,43 @@
-- event: "AI Engineering Summit 2026"
-  topic: "Orchestrating Multi-Agent Debate Graphs"
-  date: "April 2026"
-  recording_url: "https://youtube.com/example"
-  slides_url: "https://example.com/slides"
-  image: "https://via.placeholder.com/600x200?text=Event+Photo"
+- event: "Snowflake Data For Breakfast"
+  topic: "Unlocking potential with AI Agents on Snowflake and AWS"
+  date: "March 2026"
+  image: "/assets/img/speaking/snowflakedfb.jpg"
 
-- event: "Cloud Native Computing Conference"
-  topic: "Zero-Docker Agent Deployment on Fargate"
-  date: "November 2025"
-  description: "A deep dive into migrating complex workloads to ECS Fargate from basic EC2 deployments."
+- event: "Nutanix Tech Summit Panel Talk"
+  topic: "Nutanix and AWS: NC2 and Hybrid Cloud Strategies"
+  date: "February 2026"
+  image: "/assets/img/speaking/Nutanix_Panel.jpg"
+
+- event: "MongoDB Immersion Day at AWS"
+  topic: "Building AI Agents with MongoDB and Bedrock AgentCore"
+  date: "December 2025"
+  description: "Presented a comprehensive deep-dive session to over 150 attendees showcasing integration strategies."
+  images:
+    - "/assets/img/speaking/Imm1.jpg"
+    - "/assets/img/speaking/Imm2.jpg"
+
+- event: "MongoDB Local Delhi"
+  topic: "Building Generative AI Applications with MongoDB - Atlas on AWS"
+  date: "July 1, 2025"
+  image: "/assets/img/speaking/Mongodb_Local_Delhi.jpg"
+
+- event: "MongoDB Local Bangalore"
+  topic: "Building Generative AI Applications with MongoDB - Atlas on AWS"
+  date: "June 26, 2025"
+  image: "/assets/img/speaking/Mongodb_Local.jpg"
+
+- event: "Databricks Data Intelligence Day"
+  topic: "Transforming the GenAI Landscape with AWS Bedrock & Databricks"
+  date: "April 2025"
+  image: "/assets/img/speaking/Databricks_DI_Day.jpg"
+  description: |
+    Shared insights on the powerful combination of Amazon Web Services (AWS) Bedrock and Databricks, showcasing how this partnership is transforming the GenAI landscape. Key highlights included:
+    • Deep dive into AWS Bedrock's latest foundation models and capabilities
+    • Seamless integration between AWS and Databricks platforms
+    • Our strategic collaboration agreement focusing on GenAI innovation
+    • The remarkable success story of Databricks on AWS Marketplace
+
+- event: "Snowflake Build Bangalore"
+  topic: "Harnessing Generative AI with Snowflake and AWS"
+  date: "December 2024"
+  image: "/assets/img/speaking/Snowflake_Build_2024.jpg"

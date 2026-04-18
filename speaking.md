@@ -11,7 +11,13 @@ title: Speaking
 <div class="grid">
 {% for talk in site.data.speaking %}
   <article class="glass">
-    {% if talk.image %}
+    {% if talk.images %}
+    <div style="margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      {% for img in talk.images %}
+      <img src="{{ img }}" alt="{{ talk.topic }}" style="flex: 1; min-width: 250px; height: 200px; object-fit: cover; border-radius: 8px;">
+      {% endfor %}
+    </div>
+    {% elsif talk.image %}
     <div style="margin-bottom: 1.5rem;">
       <img src="{{ talk.image }}" alt="{{ talk.topic }}" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
     </div>
@@ -21,7 +27,7 @@ title: Speaking
       {{ talk.event }} • {{ talk.date }}
     </p>
     {% if talk.description %}
-      <p>{{ talk.description }}</p>
+      <div style="font-size: 0.95rem;">{{ talk.description | markdownify }}</div>
     {% endif %}
     
     <div style="margin-top: 1.5rem; display: flex; gap: 0.8rem;">
