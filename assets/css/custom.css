@@ -221,6 +221,12 @@ main { max-width: 1000px; margin: 6rem auto 3rem auto; padding: 0 1.5rem; }
   margin-right: 0.5rem;
 }
 
+.hoverable-glass:hover {
+  transform: translateY(-5px);
+  background: var(--color-surface);
+  border-color: var(--color-primary-light);
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 500px) {
   .nav-content {
