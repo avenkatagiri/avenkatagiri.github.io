@@ -1,5 +1,6 @@
 ---
 layout: default
+image: /assets/img/blogs/2024-02-15-cognite-data-fusion-aws.png
 title: "Guidance for Industrial Data Fabric using Cognite Data Fusion® on AWS"
 date: 2024-02-15
 external_url: "https://aws.amazon.com/solutions/guidance/industrial-data-fabric-using-cognite-data-fusion-on-aws/"

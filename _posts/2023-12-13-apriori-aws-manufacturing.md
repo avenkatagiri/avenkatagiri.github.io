@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "How Product Manufacturers Increase Profits and Sustainability with AWS and aPriori"
 date: 2023-12-13

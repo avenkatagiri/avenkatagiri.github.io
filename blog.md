@@ -21,6 +21,9 @@ title: Blog
       </a>
     </h3>
     <p style="color: var(--color-primary-light); font-size: 0.85rem; margin-bottom: 0.8rem;">{{ post.date | date: "%B %d, %Y" }}</p>
+    {% if post.image %}
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width:100%; border-radius:12px; margin-bottom: 1rem; object-fit: cover; aspect-ratio: 2/1;" onerror="this.style.display='none'"/>
+    {% endif %}
     <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
     <a href="{{ target_url }}" class="btn" style="margin-top: 0.5rem; font-size: 0.85rem; padding: 0.4rem 0.8rem;" {% if post.external_url %}target="_blank"{% endif %}>Read More</a>
   </article>

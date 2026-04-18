@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Manufacturing analytics in regulated industries with MachineMetrics on AWS"
 date: 2023-07-05
