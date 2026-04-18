@@ -1,14 +1,59 @@
-- title: "Excellence in Engineering Award"
-  issuer: "Tech Innovators Corp"
-  date: "2025"
-  description: "Recognized for leading the transition to multi-agent architectures and improving system resilience."
-  link: "https://example.com/award"
-  image: "https://via.placeholder.com/80?text=Badge"
-
-- title: "AWS Certified Solutions Architect"
-  issuer: "Amazon Web Services"
-  date: "2024"
-  description: "Demonstrated advanced technical proficiency in designing distributed systems on AWS."
-  link: "https://credly.com/your-badge-link"
-  image: "https://via.placeholder.com/100?text=AWS"
+﻿- title: "AWS Partner: Agentic AI Technical Learning Plan Assessment - Training Badge"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/ba627d08-79c6-43ef-8765-9480328d98ae/public_url"
+  image: "/assets/img/badges/badge_0.png"
   featured: true
+
+- title: "AWS Industry Manufacturing Foundational (L100)"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/021c89e9-0831-4c20-9d9a-9df898107c66/public_url"
+  image: "/assets/img/badges/badge_1.png"
+  featured: true
+
+- title: "AWS Industry Financial Services Foundational (L100)"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/ef7f8ca4-9f9d-4b38-89f0-4f07b47f87ac/public_url"
+  image: "/assets/img/badges/badge_2.png"
+  featured: true
+
+- title: "AWS AI Foundational (L100)"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/1a7e01ca-0fa1-41f6-b9be-f2cb9562c7ba/public_url"
+  image: "/assets/img/badges/badge_3.png"
+  featured: true
+
+- title: "MongoDB Solution Architect Certification for AWS"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/212fa291-5dfc-4aea-9c55-e57d554eb666/public_url"
+  image: "/assets/img/badges/badge_4.png"
+
+- title: "MongoDB Certification for AWS"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/6f8b2faf-eaa3-4dbd-a89c-2e701e7cb5bb/public_url"
+  image: "/assets/img/badges/badge_5.png"
+
+- title: "Building AI Apps with MongoDB on AWS"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/ef05b796-663a-44fd-bcde-8a630a07ad81/public_url"
+  image: "/assets/img/badges/badge_6.png"
+
+- title: "AWS Certified AI Practitioner"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/a8975f36-b1e2-4e7c-a5cd-276b306a418f/public_url"
+  image: "/assets/img/badges/badge_7.png"
+
+- title: "AWS Certified AI Practitioner Early Adopter"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/2013c072-5fae-4a7c-a06b-84b8ff9a2005/public_url"
+  image: "/assets/img/badges/badge_8.png"
+
+- title: "AWS Certified Solutions Architect – Associate (Expired)"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/540a3c40-a1bb-407b-848f-3d76d9794be4/public_url"
+  image: "/assets/img/badges/badge_9.png"
+
+- title: "AWS Partner: Cloud Economics Essentials - Training Badge"
+  issuer: "Credly"
+  link: "https://www.credly.com/badges/cf5d40cd-923e-4302-894b-6b546b0248fe/public_url"
+  image: "/assets/img/badges/badge_10.png"
+
