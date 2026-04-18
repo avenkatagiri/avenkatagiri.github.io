@@ -19,7 +19,7 @@ title: Certifications
     <h3 style="margin-top:0;">{{ award.title }}</h3>
     <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.8rem;">
       {% if award.company_logo %}
-      <img src="{{ award.company_logo }}" alt="Company Logo" style="height: 22px; width: auto; object-fit: contain;">
+      <img src="{{ award.company_logo }}" alt="Company Logo" style="height: 20px; width: auto; object-fit: contain; background: rgba(255,255,255,0.9); padding: 0.2rem 0.4rem; border-radius: 4px;">
       {% endif %}
       <p style="color: var(--color-primary-light); font-weight: 600; font-size: 0.9rem; margin: 0;">
         {{ award.issuer }} {% if award.date %}• {{ award.date }}{% endif %}
