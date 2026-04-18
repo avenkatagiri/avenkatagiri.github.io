@@ -23,7 +23,7 @@ title: Home
     <h3 style="margin-top:0;">{{ project.title }}</h3>
     {% if project.complexity %}<span style="font-size: 0.8rem; padding: 0.2rem 0.5rem; background: var(--color-primary); color: white; border-radius: 4px; margin-bottom: 0.5rem; display: inline-block;">{{ project.complexity }}</span>{% endif %}
     <p>{{ project.description }}</p>
-    {% if project.image %}<img src="{{ project.image }}" alt="{{ project.title }} thumbnail" style="width:100%; border-radius:12px; margin-top: 0.5rem; object-fit: cover; aspect-ratio: 16/9;" onerror="this.style.display='none'"/>{% endif %}
+    {% if project.image %}<img src="{{ project.image | relative_url }}" alt="{{ project.title }} thumbnail" style="width:100%; border-radius:12px; margin-top: 0.5rem; object-fit: cover; aspect-ratio: 16/9;" onerror="this.style.display='none'"/>{% endif %}
     
     <div style="margin-top: 1.5rem; display: flex; gap: 0.8rem;">
       {% if project.demo_url %}<a href="{{ project.demo_url }}" class="btn" target="_blank">Demo</a>{% endif %}
