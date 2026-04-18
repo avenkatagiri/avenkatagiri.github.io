@@ -1,4 +1,28 @@
-﻿- title: "AWS Partner: Agentic AI Technical Learning Plan Assessment - Training Badge"
+- title: "Certificate for Claude Code in Action"
+  issuer: "Skilljar"
+  link: "https://verify.skilljar.com/c/wypnqf23irdk"
+  image: "/assets/img/badges/badge_11.png"
+  featured: true
+
+- title: "Certificate for Model Context Protocol: Advanced Topics"
+  issuer: "Skilljar"
+  link: "https://verify.skilljar.com/c/qccbp94zdxug"
+  image: "/assets/img/badges/badge_12.png"
+  featured: true
+
+- title: "Certificate for Introduction to Model Context Protocol"
+  issuer: "Skilljar"
+  link: "https://verify.skilljar.com/c/pwocmemad75t"
+  image: "/assets/img/badges/badge_13.png"
+  featured: true
+
+- title: "Certificate for Claude with Amazon Bedrock"
+  issuer: "Skilljar"
+  link: "https://verify.skilljar.com/c/jzfkjzj98pf9"
+  image: "/assets/img/badges/badge_14.png"
+  featured: true
+
+- title: "AWS Partner: Agentic AI Technical Learning Plan Assessment - Training Badge"
   issuer: "Credly"
   link: "https://www.credly.com/badges/ba627d08-79c6-43ef-8765-9480328d98ae/public_url"
   image: "/assets/img/badges/badge_0.png"
@@ -47,7 +71,7 @@
   link: "https://www.credly.com/badges/2013c072-5fae-4a7c-a06b-84b8ff9a2005/public_url"
   image: "/assets/img/badges/badge_8.png"
 
-- title: "AWS Certified Solutions Architect � Associate (Expired)"
+- title: "AWS Certified Solutions Architect – Associate (Expired)"
   issuer: "Credly"
   link: "https://www.credly.com/badges/540a3c40-a1bb-407b-848f-3d76d9794be4/public_url"
   image: "/assets/img/badges/badge_9.png"
@@ -56,28 +80,3 @@
   issuer: "Credly"
   link: "https://www.credly.com/badges/cf5d40cd-923e-4302-894b-6b546b0248fe/public_url"
   image: "/assets/img/badges/badge_10.png"
-
-- title: "Certificate for Claude Code in Action"
-  issuer: "Skilljar"
-  link: "https://verify.skilljar.com/c/wypnqf23irdk"
-  image: "/assets/img/badges/badge_11.png"
-  featured: true
-
-- title: "Certificate for Model Context Protocol: Advanced Topics"
-  issuer: "Skilljar"
-  link: "https://verify.skilljar.com/c/qccbp94zdxug"
-  image: "/assets/img/badges/badge_12.png"
-  featured: true
-
-- title: "Certificate for Introduction to Model Context Protocol"
-  issuer: "Skilljar"
-  link: "https://verify.skilljar.com/c/pwocmemad75t"
-  image: "/assets/img/badges/badge_13.png"
-  featured: true
-
-- title: "Certificate for Claude with Amazon Bedrock"
-  issuer: "Skilljar"
-  link: "https://verify.skilljar.com/c/jzfkjzj98pf9"
-  image: "/assets/img/badges/badge_14.png"
-  featured: true
-
