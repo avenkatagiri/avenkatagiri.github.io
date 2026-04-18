@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Awards & Certifications
+title: Awards & Certs
 ---
 
-<h1 style="text-align: center; margin-bottom: 0.5rem;">Awards & Certifications</h1>
+<h1 style="text-align: center; margin-bottom: 0.5rem;">Awards & Certs</h1>
 <p style="text-align: center; color: var(--color-muted); max-width: 600px; margin: 0 auto 3rem auto;">
   A timeline of professional milestones and recognitions.
 </p>

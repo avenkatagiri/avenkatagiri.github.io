@@ -29,8 +29,8 @@ To add a new project card, update the `_data/projects.yml` file.
     - FastAPI
 ```
 
-### 2. Awards & Badges (`_data/awards.yml`)
-Add your certifications to the `/awards` page by editing `_data/awards.yml`. The UI will automatically style the image badge.
+### 2. Awards & Certs (`_data/awards.yml`)
+Add your certifications to the `/awards-certs` page by editing `_data/awards.yml`. The UI will automatically style the image badge.
 
 ```yaml
 - title: "AWS Certified Solutions Architect"
