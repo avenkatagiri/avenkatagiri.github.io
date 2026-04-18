@@ -1,0 +1,10 @@
+- event: "AI Engineering Summit 2026"
+  topic: "Orchestrating Multi-Agent Debate Graphs"
+  date: "April 2026"
+  recording_url: "https://youtube.com/example"
+  slides_url: "https://example.com/slides"
+
+- event: "Cloud Native Computing Conference"
+  topic: "Zero-Docker Agent Deployment on Fargate"
+  date: "November 2025"
+  description: "A deep dive into migrating complex workloads to ECS Fargate from basic EC2 deployments."
