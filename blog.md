@@ -20,7 +20,12 @@ title: Blog
         {% endif %}
       </a>
     </h3>
-    <p style="color: var(--color-primary-light); font-size: 0.85rem; margin-bottom: 0.8rem;">{{ post.date | date: "%B %d, %Y" }}</p>
+    <p style="color: var(--color-primary-light); font-size: 0.85rem; margin-bottom: 0.8rem;">
+      {{ post.date | date: "%B %d, %Y" }}
+      {% if post.publisher %}
+      <span style="font-size: 0.75rem; padding: 0.1rem 0.6rem; background: var(--color-surface); color: var(--color-text); border-radius: 20px; border: 1px solid var(--color-muted); margin-left: 0.8rem; font-weight: 500;"> Publisher: {{ post.publisher }}</span>
+      {% endif %}
+    </p>
     {% if post.image %}
     <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width:100%; height:auto; max-height: 280px; border-radius:12px; margin-bottom: 1rem; object-fit: contain; background: var(--color-surface);" onerror="this.style.display='none'"/>
     {% endif %}
