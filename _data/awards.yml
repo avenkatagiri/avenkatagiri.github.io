@@ -1,27 +1,27 @@
 - title: "Certificate for Claude Code in Action"
   issuer: "Skilljar"
-  company_logo: "/assets/img/logos/anthropic.svg"
+  company_logo: "https://cdn.simpleicons.org/anthropic"
   link: "https://verify.skilljar.com/c/wypnqf23irdk"
   image: "/assets/img/badges/badge_11.png"
   featured: true
 
 - title: "Certificate for Model Context Protocol: Advanced Topics"
   issuer: "Skilljar"
-  company_logo: "/assets/img/logos/anthropic.svg"
+  company_logo: "https://cdn.simpleicons.org/anthropic"
   link: "https://verify.skilljar.com/c/qccbp94zdxug"
   image: "/assets/img/badges/badge_12.png"
   featured: true
 
 - title: "Certificate for Introduction to Model Context Protocol"
   issuer: "Skilljar"
-  company_logo: "/assets/img/logos/anthropic.svg"
+  company_logo: "https://cdn.simpleicons.org/anthropic"
   link: "https://verify.skilljar.com/c/pwocmemad75t"
   image: "/assets/img/badges/badge_13.png"
   featured: true
 
 - title: "Certificate for Claude with Amazon Bedrock"
   issuer: "Skilljar"
-  company_logo: "/assets/img/logos/anthropic.svg"
+  company_logo: "https://cdn.simpleicons.org/anthropic"
   link: "https://verify.skilljar.com/c/jzfkjzj98pf9"
   image: "/assets/img/badges/badge_14.png"
   featured: true
