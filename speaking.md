@@ -8,13 +8,51 @@ title: Speaking Engagements
   Public talks, webinars, and conference presentations.
 </p>
 
+<style>
+  .image-carousel {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-primary) transparent;
+  }
+  .image-carousel::-webkit-scrollbar {
+    height: 6px;
+  }
+  .image-carousel::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .image-carousel::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+    border-radius: 10px;
+  }
+  .carousel-image {
+    flex: 0 0 85%;
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  @media (min-width: 768px) {
+    .carousel-image {
+      flex: 0 0 75%;
+      height: 300px;
+    }
+  }
+</style>
+
 <div class="grid">
 {% for talk in site.data.speaking %}
   <article class="glass">
     {% if talk.images %}
-    <div style="margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+    <div class="image-carousel" style="margin-bottom: 1.5rem;">
       {% for img in talk.images %}
-      <img src="{{ img }}" alt="{{ talk.topic }}" style="flex: 1; min-width: 250px; height: 200px; object-fit: cover; border-radius: 8px;">
+      <img src="{{ img }}" alt="{{ talk.topic }}" class="carousel-image">
       {% endfor %}
     </div>
     {% elsif talk.image %}
