@@ -361,3 +361,75 @@ main { max-width: 1000px; margin: 6rem auto 3rem auto; padding: 0 1.5rem; }
     margin-left: 50px;
   }
 }
+
+/* Timeline Categories and Colors */
+.timeline-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.timeline-category {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+/* Category Colors */
+.tag-cloud-architecture { background: #06b6d4; } /* Cyan */
+.marker-cloud-architecture { background: #06b6d4 !important; box-shadow: 0 0 10px #06b6d4, 0 0 0 4px rgba(6, 182, 212, 0.2) !important; }
+
+.tag-startup { background: #8b5cf6; } /* Purple */
+.marker-startup { background: #8b5cf6 !important; box-shadow: 0 0 10px #8b5cf6, 0 0 0 4px rgba(139, 92, 246, 0.2) !important; }
+
+.tag-data-and-analytics { background: #f97316; } /* Orange */
+.marker-data-and-analytics { background: #f97316 !important; box-shadow: 0 0 10px #f97316, 0 0 0 4px rgba(249, 115, 22, 0.2) !important; }
+
+.tag-engineering { background: #64748b; } /* Slate */
+.marker-engineering { background: #64748b !important; box-shadow: 0 0 10px #64748b, 0 0 0 4px rgba(100, 116, 139, 0.2) !important; }
+
+.tag-partnerships { background: #10b981; } /* Emerald */
+.marker-partnerships { background: #10b981 !important; box-shadow: 0 0 10px #10b981, 0 0 0 4px rgba(16, 185, 129, 0.2) !important; }
+
+.tag-pre-sales { background: #ec4899; } /* Pink */
+.marker-pre-sales { background: #ec4899 !important; box-shadow: 0 0 10px #ec4899, 0 0 0 4px rgba(236, 72, 153, 0.2) !important; }
+
+.tag-education { background: #3b82f6; } /* Blue */
+.marker-education { background: #3b82f6 !important; box-shadow: 0 0 10px #3b82f6, 0 0 0 4px rgba(59, 130, 246, 0.2) !important; }
+
+/* Default fallback for undefined categories */
+.timeline-category[class*="tag-"]:not(.tag-cloud-architecture):not(.tag-startup):not(.tag-data-and-analytics):not(.tag-engineering):not(.tag-partnerships):not(.tag-pre-sales):not(.tag-education) {
+  background: var(--color-primary);
+}
+
+/* Timeline Links */
+.timeline-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+.timeline-link-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.3rem 0.8rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 20px;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.timeline-link-pill:hover {
+  background: rgba(6, 182, 212, 0.1);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}

@@ -1,3 +1,19 @@
+- event: "Scaling Real-time AI Actions with AWS and Confluent"
+  topic: "Scaling Real-time AI Actions with AWS and Confluent"
+  date: "April 2026"
+  description: |
+    Explored how organizations can build event-driven, agentic AI systems by combining Confluent's streaming platform with AWS services like Amazon Bedrock AgentCore.
+
+    Key takeaways from the session:
+    🔹 Real-time context is the missing piece in most AI architectures — data streaming bridges the gap between static models and dynamic, responsive AI agents.
+    🔹 Confluent's Streaming Agents + Amazon Bedrock AgentCore gives you the backbone to move from batch-oriented AI workflows to real-time, agentic AI at scale.
+    🔹 The shift from "AI that answers questions" to "AI that takes actions" requires an event-driven nervous system — and that's exactly what data streaming enables.
+  images:
+    - "/assets/img/speaking/confluent-1.jpg"
+    - "/assets/img/speaking/confluent-2.jpg"
+    - "/assets/img/speaking/confluent-3.jpg"
+    - "/assets/img/speaking/confluent-4.jpg"
+
 - event: "Snowflake Data For Breakfast"
   topic: "Unlocking potential with AI Agents on Snowflake and AWS"
   date: "March 2026"
