@@ -38,7 +38,12 @@ title: Home
       <h3 class="timeline-title">{{ item.title }}</h3>
       
       {% if item.company != "" and item.company != nil %}
-      <div class="timeline-company">{{ item.company }}</div>
+      <div class="timeline-company-container" style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+        <div class="timeline-company" style="margin-bottom: 0;">{{ item.company }}</div>
+        {% if item.logo != "" and item.logo != nil %}
+        <img src="{{ item.logo }}" alt="{{ item.company }} Logo" class="timeline-logo" style="margin-top: 0; height: 24px; padding: 0.2rem;" onerror="this.style.display='none'">
+        {% endif %}
+      </div>
       {% endif %}
       
       <p class="timeline-desc">{{ item.description }}</p>
@@ -52,10 +57,6 @@ title: Home
         </a>
         {% endfor %}
       </div>
-      {% endif %}
-
-      {% if item.logo != "" and item.logo != nil %}
-      <img src="{{ item.logo }}" alt="{{ item.company }} Logo" class="timeline-logo" onerror="this.style.display='none'">
       {% endif %}
     </div>
   </div>
