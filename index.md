@@ -18,38 +18,22 @@ title: Home
   </div>
 </div>
 
-<h2 style="margin-bottom: 1.5rem; text-align: center;">Featured Projects</h2>
-<section class="grid">
-  {% assign featured_projects = site.data.projects | where: "featured", true %}
-  {% for project in featured_projects %}
-  <article class="glass">
-    <h3 style="margin-top:0;">{{ project.title }}</h3>
-    {% if project.complexity %}<span style="font-size: 0.8rem; padding: 0.2rem 0.5rem; background: var(--color-primary); color: white; border-radius: 4px; margin-bottom: 0.5rem; display: inline-block;">{{ project.complexity }}</span>{% endif %}
-    <p>{{ project.description }}</p>
-    {% if project.image %}<img src="{{ project.image | relative_url }}" alt="{{ project.title }} thumbnail" style="max-width: 500px; width: 100%; border-radius:12px; margin: 1.5rem auto; display: block; object-fit: contain;" onerror="this.style.display='none'"/>{% endif %}
-    
-    <div style="margin-top: 1.5rem; display: flex; gap: 0.8rem;">
-      {% if project.demo_url %}<a href="{{ project.demo_url }}" class="btn" target="_blank">Demo</a>{% endif %}
-      {% if project.repo_url %}<a href="{{ project.repo_url }}" class="btn" style="background: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-muted);" target="_blank">Code</a>{% endif %}
+<h2 style="margin-top: 4rem; margin-bottom: 1.5rem; text-align: center;">Journey</h2>
+<div class="timeline-section">
+  {% for item in site.data.timeline %}
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content glass hoverable-glass">
+      <span class="timeline-year">{{ item.year }}</span>
+      <h3 class="timeline-title">{{ item.title }}</h3>
+      {% if item.company != "" %}
+      <div class="timeline-company">{{ item.company }}</div>
+      {% endif %}
+      <p class="timeline-desc">{{ item.description }}</p>
+      {% if item.logo != "" %}
+      <img src="{{ item.logo }}" alt="{{ item.company }} Logo" class="timeline-logo" onerror="this.style.display='none'">
+      {% endif %}
     </div>
-  </article>
+  </div>
   {% endfor %}
-</section>
-
-<h2 style="margin-top: 4rem; margin-bottom: 1.5rem; text-align: center;">Key Certifications</h2>
-<div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 4rem;">
-{% assign featured_awards = site.data.awards | where: "featured", true %}
-{% for award in featured_awards %}
-  <a href="{{ award.link }}" target="_blank" style="text-decoration: none; text-align: center; display: flex; flex-direction: column; align-items: center; padding: 1.5rem; border-radius: 12px; transition: transform 0.2s ease, box-shadow 0.2s ease;" class="glass hoverable-glass">
-    {% if award.image %}
-    <div style="background: white; border-radius: 50%; width: 100px; height: 100px; display: flex; align-items: center; justify-content: center; padding: 0.5rem; margin-bottom: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-      <img src="{{ award.image }}" alt="{{ award.title }}" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-    </div>
-    {% endif %}
-    <h4 style="margin: 0; color: var(--color-text); font-size: 0.95rem; max-width: 180px; margin-bottom: 0.5rem;">{{ award.title }}</h4>
-    {% if award.company_logo %}
-    <img src="{{ award.company_logo }}" alt="Company Logo" style="height: 18px; margin-top: 0.5rem; object-fit: contain; background: rgba(255,255,255,0.9); padding: 0.2rem 0.4rem; border-radius: 4px;">
-    {% endif %}
-  </a>
-{% endfor %}
 </div>
