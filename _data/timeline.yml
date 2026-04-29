@@ -9,9 +9,9 @@
     - "Partnerships"
   description: "Building multi-agent architectures that transform complex cloud data into actionable intelligence."
   links:
-    - title: "Amazon Connect & MoEngage"
-      url: "/blog/amazon-connect-moengage"
-      type: "blog"
+    - title: "Multi-Agent Orchestration with Snowflake Cortex MCP and Amazon Bedrock AgentCore"
+      url: "https://www.snowflake.com/en/developers/guides/multi-agent-orchestration-with-snowflake-cortex-mcp-and-amazon-quick-suite/"
+      type: "blog" 
 
 - from: "Aug 2022"
   to: "Aug 2024"
@@ -24,22 +24,18 @@
     - "Data & Analytics"
   description: "Architecting scalable cloud solutions and integrating modern data stacks for industrial partners."
   links:
-    - title: "MachineMetrics on AWS"
-      url: "/blog/machinemetrics-aws"
-      type: "blog"
-    - title: "Speaking: AWS Summits"
-      url: "/speaking/"
-      type: "speaking"
+    - title: "Industrial Data Fabric using Cognite Data Fusion on AWS"
+      url: "https://aws.amazon.com/solutions/guidance/industrial-data-fabric-using-cognite-data-fusion-on-aws/"
+      type: "guidance"
 
 - from: "Feb 2022"
   to: "Aug 2022"
   title: "Presales Solutions Architect"
   company: "Element"
-  logo: "/assets/img/logos/element.svg"
+  logo: "/assets/img/logos/element.png"
   categories:
     - "Startup"
     - "Pre-sales"
-    - "Python"
     - "Industrial Internet of Things (IIoT)"
   description: "Providing pre-sales technical architecture and solutions for industrial data management."
 
@@ -80,7 +76,7 @@
   to: "2014"
   title: "Master's Degree, Mechanical Engineering"
   company: "Ohio University"
-  logo: ""
+  logo: "/assets/img/logos/Ohio-University-Logo.jpg"
   categories:
     - "Education"
     - "Mechanical Engineering"
@@ -91,7 +87,7 @@
   to: "2011"
   title: "Bachelors Degree, Mechanical Engineering"
   company: "B. M. S. College of Engineering"
-  logo: ""
+  logo: "/assets/img/logos/BMSCE.jpg"
   categories:
     - "Education"
     - "Mechanical Engineering"
