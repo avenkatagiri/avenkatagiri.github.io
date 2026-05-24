@@ -1,3 +1,10 @@
+- title: "Proficiency 2026: Datadog LLM Observability"
+  issuer: "Datadog"
+  company_logo: "https://cdn.simpleicons.org/datadog"
+  link: "https://www.credly.com/badges/06765ef5-a1f2-49e8-9700-d8a5a256d3b8/public_url"
+  image: "/assets/img/badges/badge_15.png"
+  featured: true
+
 - title: "Certificate for Claude Code in Action"
   issuer: "Skilljar"
   company_logo: "https://cdn.simpleicons.org/anthropic"
@@ -31,13 +38,6 @@
   company_logo: "/assets/img/logos/aws.svg"
   link: "https://www.credly.com/badges/ba627d08-79c6-43ef-8765-9480328d98ae/public_url"
   image: "/assets/img/badges/badge_0.png"
-  featured: true
-
-- title: "Proficiency 2026: Datadog LLM Observability"
-  issuer: "Datadog"
-  company_logo: "https://cdn.simpleicons.org/datadog"
-  link: "https://www.credly.com/badges/06765ef5-a1f2-49e8-9700-d8a5a256d3b8/public_url"
-  image: "/assets/img/badges/badge_15.png"
   featured: true
 
 - title: "AWS Industry Manufacturing Foundational (L100)"
